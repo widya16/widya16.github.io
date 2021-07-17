@@ -1,0 +1,371 @@
+body {
+  font-family: "Dosis", sans-serif;
+}
+
+/* Home Page Style */
+.ww-home-page {
+  background: url("../images/cover.webp") no-repeat center center;
+  background-size: cover;
+  background-position: 70%;
+  height: 100vh;
+  min-height: 480px;
+  max-height: 1080px;
+}
+
+.ww-home-page .ww-wedding-announcement {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  height: 100%;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  letter-spacing: 2px;
+}
+
+.ww-home-page .ww-wedding-announcement .ww-announcement-container {
+  max-width: 600px;
+  text-align: center;
+  margin-left: 0;
+  z-index: 999;
+}
+
+.ww-home-page .ww-wedding-announcement img {
+  max-height: 350px;
+  width: auto;
+}
+
+@media (max-width: 480px) {
+  .ww-home-page .ww-wedding-announcement img {
+    max-height: 250px;
+    width: auto;
+  }
+}
+
+.ww-home-page .ww-wedding-announcement .ww-couple-name {
+  font-size: 70px;
+}
+
+@media (max-width: 576px) {
+  .ww-home-page .ww-wedding-announcement .ww-couple-name {
+    font-size: 50px;
+  }
+}
+
+/*.ww-home-page:before {
+  content: "";
+  background-color: rgba(86, 126, 145, 0.2);
+  width: 100%;
+  height: 100%;
+  height: 100vh;
+  min-height: 480px;
+  max-height: 1080px;
+  position: absolute;
+  left: 0;
+  top: 0; }*/
+
+.ww-nav-bar {
+  background-color: #f0dfad;
+}
+
+.ww-nav-bar .nav-item {
+  font-size: 18px;
+  padding: 5px 0 5px 16px;
+  font-weight: 500;
+}
+
+/*date*/
+
+.date-round {
+  font-size: 40px;
+  font-family: Crete Round, cursive;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.month {
+  font-size: 30px;
+}
+
+.year {
+  font-size: 30px;
+}
+
+
+
+
+/* Wedding Event Style */
+
+.ww-wedding-event {
+  background-color: #fff7e0;
+}
+
+
+
+.ww-wedding-event ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+
+
+/* Couple Friends Style  */
+.ww-couple-friends .carousel {
+  padding: 40px 0;
+}
+
+.ww-couple-friends .carousel-indicators {
+  bottom: 0px;
+}
+
+.ww-couple-friends .carousel-indicators li {
+  background-color: #6c757d;
+}
+
+.ww-couple-friends .carousel-indicators .active {
+  background-color: #f58a77;
+}
+
+/* Photo Gallery Style */
+.ww-photo-gallery .ww-category-filter a {
+  display: inline-block;
+  margin: 0 10px 6px 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 3px;
+}
+
+.ww-photo-gallery .ww-gallery {
+  min-height: 500px;
+}
+
+.ww-photo-gallery .card-columns .card {
+  border: none;
+  margin-bottom: 15px;
+  border-radius: none;
+}
+
+@media (max-width: 992px) {
+  .ww-photo-gallery .card-columns {
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+}
+
+@media (max-width: 576px) {
+  .ww-photo-gallery .card-columns {
+    -moz-column-count: 1;
+    column-count: 1;
+  }
+}
+
+/* RSVP Style */
+.ww-rsvp-detail {
+  background: url("../images/rsv.webp") no-repeat center center;
+  background-size: cover;
+  min-height: 500px;
+  position: relative;
+}
+
+.ww-rsvp-detail .ww-rsvp-form {
+  padding-left: 20%;
+}
+
+@media (max-width: 768px) {
+  .ww-rsvp-detail .ww-rsvp-form {
+    padding-left: 10%;
+  }
+}
+
+@media (max-width: 576px) {
+  .ww-rsvp-detail .ww-rsvp-form {
+    padding-left: 0%;
+  }
+}
+
+.ww-rsvp-detail .ww-rsvp-form .form-control {
+  background-color: rgba(222, 222, 222, 0.2);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.ww-rsvp-detail .ww-rsvp-form .form-control::-moz-placeholder {
+  color: #dedede;
+}
+
+.ww-rsvp-detail .ww-rsvp-form .form-control:-ms-input-placeholder {
+  color: #dedede;
+}
+
+.ww-rsvp-detail .ww-rsvp-form .form-control::placeholder {
+  color: #dedede;
+}
+
+.ww-rsvp-detail .ww-rsvp-form select.form-control option {
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+.ww-rsvp-detail .ww-rsvp-form .btn-submit {
+  background-color: rgba(245, 138, 119, 0.8);
+  padding: 0.45rem 1.5rem;
+  border: 0;
+}
+
+.ww-rsvp-detail:before {
+  content: "";
+  /*background-color: rgba(0, 0, 0, 0.3);*/
+  background-color: rgba(45, 17, 63, 0.2);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Footer Style */
+.ww-footer a.credit {
+  color: inherit;
+  border-bottom: 1px dashed;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Common Style */
+.ww-title {
+  font-family: "Great Vibes", cursive;
+}
+
+.ww-section {
+  padding: 0px 0;
+}
+
+.btn-primary {
+  color: #fff;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+}
+
+.loc {
+  background-size: cover;
+  min-height: 500px;
+  position: relative;
+}
+
+.video {
+  height: 500px;
+}
+
+.countdown {
+  display: flex;
+  /*position: relative;*/
+
+}
+
+.countdown div {
+
+  position: relative;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  background: linear-gradient(#bd881e, #ffe5b0);
+  color: #fff;
+  margin: 0 10px;
+  font-size: 3em;
+  font-weight: 450;
+  border-radius: 10px;
+}
+
+.countdown div:before {
+  content: '';
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background: #bd881e;
+  color: #fff;
+  font-size: 0.35em;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.countdown #hari:before {
+  content: 'Hari';
+}
+
+.countdown #jam:before {
+  content: 'Jam';
+}
+
+.countdown #menit:before {
+  content: 'Menit';
+}
+
+.countdown #detik:before {
+  content: 'Detik';
+}
+
+
+.message-list {
+  /*background-color: #fff7e0;*/
+  width: 100%;
+  height: 300px;
+  overflow: auto;
+
+}
+
+.card-guest {
+  width: 200px;
+  background-color: lavender;
+  border-radius: 30px;
+  margin: 20px;
+}
+
+.nama-guest {
+  height: 20px;
+  width: 100px;
+}
+
+.message-guest {
+  height: 50px;
+  width: 100px;
+}
+
+
+.card-message {
+  height: 200px;
+  width: 200px;
+  background-color: tomato;
+}
+
+.wcard-messagel:before {
+  content: "";
+  /*background-color: rgba(0, 0, 0, 0.3);*/
+  background-color: rgba(17, 49, 64, 0.2);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.info {
+  padding: 10px;
+  text-align: center;
+
+}
+
+.info h2 {
+  font-family: "Great Vibes";
+  font-size: 30px;
+}
+
+.img-kes img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 10px;
+}
